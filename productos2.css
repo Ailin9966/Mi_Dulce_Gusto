@@ -1,0 +1,156 @@
+/* Estilo de la barra de menú */
+.barra-menu {
+    background-color: #f3b4ca; /* Rosa pastel */
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+}
+
+/* Estilo del texto dentro de la barra */
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Texto en blanco */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    background: linear-gradient(to right, #eabff7);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+/* Fondo de la página en rosa pastel */
+body {
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    background-color: #ecc3e2; /* Rosa pastel */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centra verticalmente */
+    margin: 0;
+}
+
+
+}
+.boton-comprar {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #da48a2; 
+    border-radius: 30px; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.boton-comprar:hover {
+    background-color: #f94fff; 
+    transform: scale(1.1); 
+}
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfdfc;
+  color: #444;
+}
+
+
+
+
+.especiales {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.especiales h2 {
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+.producto {
+  width: 260px;
+  background: #fff;
+  padding: 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  transition: transform 0.2s;
+}
+
+.producto:hover {
+  transform: translateY(-2px);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.producto h3 {
+  font-size: 10px;
+  margin: 20px 0 10px;
+}
+
+.precio {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 12px;
+}
+.agregar {
+  background-color: #a56c8c;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.agregar:hover {
+  background-color: #8c5470;
+}
+.contenedor {
+  background-size: cover;
+  background-position: center;
+}
+
+
+

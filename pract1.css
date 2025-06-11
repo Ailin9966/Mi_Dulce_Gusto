@@ -1,0 +1,21 @@
+script.js
+function obtenerParametros() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.has('redirect')) {
+    window.location.href = 'Tienda.html';
+}
+  const producto = params.get('producto');
+  const precio = params.get('precio');
+
+  if (producto && precio) {
+    document.getElementById('detalle-carrito').innerHTML = `
+      <p><strong>Producto:</strong> ${producto}</p>
+      <p><strong>Precio:</strong> $${precio}</p>
+      <button onclick="alert('Compra realizada')">Comprar</button>
+    `;
+  } else {
+    document.getElementById('detalle-carrito').innerHTML = <p>No hay productos en tu carrito.</p>;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', obtenerParametros);
